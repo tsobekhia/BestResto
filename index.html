@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BestResto</title>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Slab:wght@600&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <!-- navbar section -->
+  <nav class="navbar bg-dark navbar-expand-md navbar-dark">
+    <a class="navbar-brand emblema" href="index.html">BestResto</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Food Menu
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="burgers.html">Burgers</a>
+            <a class="dropdown-item" href="pastas.html">Pastas</a>
+            <a class="dropdown-item" href="wraps.html">Wraps</a>
+            <a class="dropdown-item" href="desserts.html">Desserts</a>
+          </div>
+        </li>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Beverages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="alcoholic.html">Alcoholic</a>
+            <a class="dropdown-item" href="nonalcoholic.html">Non-Alcoholic</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Subscribe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="delivery.html">Delivery</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="2000">
+        <img src="burgeri.jpg" class="d-block w-100" alt="Burgers">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="pastaa.jpg" class="d-block w-100" alt="Pasta">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="wrapsf.jpg" class="d-block w-100" alt="Wraps">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="2000">
+        <img src="namcxvari.jpg" class="d-block w-100" alt="Desserts">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Title Section -->
+  <div class="greeting">
+    <h1>BestResto</h1>
+    <h2>Delicious Food for the Best Experience</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quis eaque in quae recusandae ratione nostrum velit reiciendis possimus nulla ipsum ut nesciunt, facilis aliquam quibusdam animi? Porro et dolore, molestiae perspiciatis neque iste
+      eveniet, error ea vitae commodi quia impedit, quas cupiditate veritatis itaque quaerat consectetur quam assumenda quibusdam.</p>
+
+  </div>
+
+
+  <!-- Boostrap Grids -->
+
+  <!-- <div class="row">
+  <div class="col-md-3">
+    <img class="img-off" src="images/salmon.jpg" alt="Salmon">
+    <h3>Most Popular</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ea.</p>
+    <button type="button" name="button">Try it Now</button>
+  </div>
+    <div class="col-md-3">
+    <img class="img-off" src="images/lasagna.jpg" alt="Lasagna">
+    <h3>Today's Special Offer</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ea.</p>
+    <button type="button" name="button">Try it Now</button>
+<div class="col-md-3">
+    <img class="img-off" src="images/vegi.jpg" alt="Veggie Burger">
+    <h3>Veggie Burger</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ea.</p>
+    <button type="button" name="button">Try it Now</button>
+  <div class="col-md-3">
+    <h3>Most Popular</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ea.</p>
+    <button type="button" name="button"></button>
+  </div> -->
+
+  <div class="row zoma">
+    <div class="col-md-4">
+      <img class="img-off" src="salmon.jpg" alt="Salmon">
+      <h3>Most Popular</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ea.</p>
+      <button type="button" class="btn btn-danger btn-lg">Try it Now</button>
+    </div>
+
+    <div class="col-md-4">
+      <img class="img-off" src="lasagna.jpg" alt="Lasagna">
+      <h3>Today's Special Offer</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ea.</p>
+      <button type="button" class="btn btn-danger btn-lg">Try it Now</button>
+    </div>
+
+    <div class="col-md-4">
+      <img class="img-off" src="vegi.jpg" alt="Veggie Burger">
+      <h3>Veggie Burger</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ea.</p>
+      <button type="button" class="btn btn-danger btn-lg">Try it Now</button>
+    </div>
+
+  </div>
+
+  <!-- footer -->
+
+  <footer class=fexi>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+            <h3>BestResto</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat magni officia autem saepe delectus ea sit nobis, id impedit porro.</p>
+
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <h2><span>B</span>estResto</h2>
+          <ul>
+            <li><a href="">Event</a></li>
+            <li><a href="">Offers</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+            <h2>Follow Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat magni officia autem saepe delectus ea sit nobis, id impedit porro.</p>
+            <a href="#"><i class=fa fa-facebook> Facebook </i></a>
+            <a href="#"><i class=fa fa-twitter> Twitter</i></a>
+            <a href="#"><i class=fa fa-linkedin> Linkedin </i></a>
+            <a href="#"><i class=fa fa-instagram> Instagram</i></a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+            <h2>Our Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat magni officia autem saepe delectus ea sit nobis, id impedit porro.</p>
+            <!-- <form class="" action="mailto" method="post">
+              <input type="email">
+              <input class="btn btn-sm btn-primary" type="submit" value="subscribe"> -->
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- <div class="footer">
+
+
+    <div class="row">
+      <div class="col-md-5">
+        <h1>BestResto</h1>
+        <p>10a Melikishvili Str</p>
+        <p>Tbilisi, Georgia</p>
+        <p>Tel:+99555555555</p>
+
+      </div>
+      <div class="col-md-7">
+        <h1>You are always welcome at our restaurant!</h1>
+
+      </div>
+
+    </div> -->
+
+
+
+
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

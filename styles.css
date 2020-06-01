@@ -1,0 +1,165 @@
+body{
+  background-color: #3f3f44;
+  font-family: 'Josefin Slab', serif;
+}
+
+/* Navbar elements */
+
+.emblema {
+  font-family: 'Sacramento', cursive;
+}
+
+/* Title Section */
+
+.greeting {
+  border: 20px solid red;
+  border-radius: 10%;
+  text-align: center;
+  margin: 20px 0;
+  background-color: black;
+}
+
+.greeting h1 {
+  font-family: Sacramento, serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color:#fff;
+  padding-top: 5%;
+}
+
+.greeting h2 {
+  font-family: 'Josefin Slab', serif;
+  font-weight:lighter;
+  font-size: 2.5rem;
+  color:#fff;
+
+}
+.greeting p {
+  font-size: 1.1rem;
+  font-family: 'Josefin Slab', serif;
+  line-height: 2;
+  padding: 3%;
+  color: #fff;
+}
+
+.img-off{
+  width:70%;
+  border: 2px solid red;
+  border-radius: 5%;
+
+}
+
+.zoma{
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  color:#fff;
+  margin-bottom: 20px;
+}
+.zoma p{
+padding: 5%;
+}
+
+.zoma h3{
+padding-top: 5%;
+}
+
+/* footer */
+
+.footer{
+  font-size: 1.1rem;
+  font-family: 'Josefin Slab', serif;
+  margin:10% 0 0;
+  color: #fff;
+  line-height: 0.5;
+  background-color: red;
+  width:100%;
+}
+
+.fexi{
+  width:100%;
+}
+
+.fexi p{
+  color:#999;
+  line-height: 25px;
+}
+
+.fexi h2, h3{
+  color:#fff;
+  text-transform: uppercase;
+  font-family: Poppins;
+
+}
+
+.fexi h2{
+  font-size: 18px;
+}
+.footer-top{
+  background-color: #111;
+  padding: 80px 0;
+  margin-top: 7%;
+}
+.segment-one h3{
+  font-family: Courgette;
+  color:#fff;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.segment-two h2{
+  color:#fff;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+}
+.segment-two h2:before {
+  content:'/';
+  color: #c65039;
+  padding: 1px;
+}
+span{
+  color: #c65039;
+  font-family: Sacramento;
+}
+
+.segment-two ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.segment-two ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+/* alkoholis magida */
+.magida {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+
+}
+tr:nth-child(odd) {
+  color: #fff;
+
+}
+
+form{
+  width:50%;
+  margin: 100px auto;
+}
+
+form:nth-child(even){
+  color:#fff; 
+}
+
+
+/* forms */
